@@ -9,7 +9,19 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/main.py",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "args": [
+                "--task", "classify",
+                "--mode", "normal",
+                "--arch", "resnet18",
+                "--batch_size", "128",
+                "--epochs", "200",
+                "--loss_fn", "mse",
+                "--reduction", "sum",
+                "--optimizer", "sgd",
+                "--output_dir", "classify-resnet18",
+                "--gpu_idx", "2"
+            ]
         }
     ]
 }

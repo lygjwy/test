@@ -1,0 +1,15 @@
+.vscode/
+0*/
+1*/
+with*/
+__pycache__/
+assets/
+logs/
+data/datasets/
+outputs/
+tmp/
+LICENSE 
+classify*/
+corrupt*/
+normalize*/
+reconstruct*/
